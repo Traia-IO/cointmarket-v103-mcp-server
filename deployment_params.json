@@ -1,0 +1,57 @@
+{
+  "github_url": "https://github.com/Traia-IO/cointmarket-v103-mcp-server",
+  "mcp_server": {
+    "name": "cointmarket-v103-mcp",
+    "description": "Another mcp for test",
+    "server_type": "streamable-http",
+    "requires_api_key": true,
+    "api_key_header": "Authorization",
+    "api_keys": [
+      "COINTMARKET_V103_API_KEY"
+    ],
+    "capabilities": [
+      "airdrops",
+      "categories",
+      "metadata_v1_deprecated",
+      "coinmarketcap_id_map",
+      "exchange_assets",
+      "metadata",
+      "coinmarketcap_id_map_i3nb",
+      "coinmarketcap_id_map_ko6m",
+      "key_info",
+      "postman_conversion_v1",
+      "price_conversion_v1_deprecated",
+      "metadata_v2",
+      "price_conversion_v2",
+      "cmc_crypto_fear_and_greed_historical",
+      "cmc_crypto_fear_and_greed_latest",
+      "listings_latest",
+      "listings_new",
+      "ohlcv_historical_v1_deprecated",
+      "ohlcv_latest_v1_deprecated",
+      "price_performance_stats_v1_deprecated",
+      "quotes_historical_v1_deprecated",
+      "quotes_latest_v1_deprecated",
+      "trending_gainers_losers",
+      "trending_latest",
+      "trending_most_visited",
+      "quotes_historical",
+      "quotes_historical_nai7",
+      "quotes_latest_8ygj",
+      "ohlcv_historical_v2",
+      "ohlcv_latest_v2"
+    ],
+    "payment_protocol": "402",
+    "dual_mode": true,
+    "dual_mode_description": "Supports both authenticated (free with API key) and payment (402 protocol) modes"
+  },
+  "deployment_method": "cloud_run",
+  "gcp_project_id": "traia-mcp-servers",
+  "gcp_region": "us-central1",
+  "tags": [
+    "cointmarket v103",
+    "api",
+    "mcp"
+  ],
+  "ref": "main"
+}
